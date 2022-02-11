@@ -1,10 +1,10 @@
 /*Created by Intellij IDEA
  * Author: Harshit Dixit(Harshit9838)
  * Date: 11-02-2022
- *Time: 10:51 PM
+ *Time: 10:56 PM
  */
 
-package model;
+package model.customer;
 
-public class Taj {
+public class Customer {
 }

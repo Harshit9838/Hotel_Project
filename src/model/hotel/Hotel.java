@@ -4,7 +4,7 @@
  *Time: 10:50 PM
  */
 
-package model;
+package model.hotel;
 
-public class Oyo {
+public class Hotel {
 }

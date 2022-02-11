@@ -4,7 +4,7 @@
  *Time: 10:51 PM
  */
 
-package model;
+package model.hotel;
 
 public class JWMariott {
 }
