@@ -16,6 +16,7 @@ public final class Radission extends Hotel {
 
     @Override
     public int getRating() {
+
         return 3;
     }
 

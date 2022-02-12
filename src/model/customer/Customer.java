@@ -8,7 +8,7 @@ package model.customer;
 
 import model.hotel.Hotel;
 
-public interface Customer {
+public sealed interface Customer permits RegularCustomer, RewardCustomer {
 
     public void bookHotel(Hotel hotel);
 

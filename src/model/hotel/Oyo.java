@@ -16,6 +16,7 @@ public final class Oyo extends Hotel {
 
     @Override
     public int getRating() {
+
         return 4;
     }
 
