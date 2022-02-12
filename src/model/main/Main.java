@@ -10,11 +10,12 @@ import model.customer.Customer;
 import model.customer.RegularCustomer;
 import model.customer.RewardCustomer;
 import model.hotel.Hotel;
-import model.hotel.Radission;
+import model.hotel.Oyo;
 
 public class Main {
     public static void main(String[] args) {
-        Hotel hotel = new Radission();
+        //   Hotel hotel = new Radission();
+        Hotel hotel = new Oyo();
 
         Customer customer1 = new RegularCustomer();
         customer1.bookHotel(hotel);
