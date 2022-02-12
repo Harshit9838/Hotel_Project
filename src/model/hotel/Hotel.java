@@ -10,15 +10,18 @@ import model.customer.Customer;
 
 public abstract class Hotel {
 
-    //rating number int
+    // rating number int
     private int rating;
+
     private int rate;
 
     public int getRate(Customer customer) {
+
         return rate;
     }
 
     public int getRating() {
         return rating;
     }
+
 }

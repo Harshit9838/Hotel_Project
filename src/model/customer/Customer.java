@@ -6,5 +6,15 @@
 
 package model.customer;
 
-public class Customer {
+import model.hotel.Hotel;
+
+public interface Customer {
+
+    public void bookHotel(Hotel hotel);
+
 }
+// Hotel hotel = new Hotel(); X abstract class -> no object
+// Hotel hotel = new Oyo();
+// Hotel hotel = new Radisson();
+// Hotel hotel = new Taj();
+
